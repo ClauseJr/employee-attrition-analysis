@@ -61,6 +61,101 @@ Within Power BI:
 Slicers were implemented for dynamic analysis, using Gender slicers.
 
 ---
+## Data Analysis
+```python
+df = pd.read_csv('messy_employee_attrition_dataset.csv')
+print(df.to_string(max_rows = 10))
+
+# -- Exporting cleaned employee attrition dataset inform of csv
+df.to_csv('cleaned_employee_attrition_dataset.csv', index=False)
+
+# -- Exporting cleaned employee attrition dataset into the database
+password = quote_plus("Phabiansharish@254")
+engine = create_engine(f'postgresql://postgres:{password}@localhost:5432/HR_ANALYTICSDB')
+df.to_sql(
+    'employee_attrition_dataset',
+    engine,
+    if_exists='replace', 
+    index=False
+)
+```
+
+```sql
+-- Calculating the Attrition Rate
+SELECT
+	"Attrition",
+	COUNT(*) total_attrition,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+-- WHERE "Attrition" = 'Yes'
+GROUP BY "Attrition";
+
+-- the attrition rate recorded from employees were as follow:
+	-- The Total number of Employees who stayed == 89.11%
+	-- Total attrition == 6534
+	-- Total attrition rate == 10.89%
+```
+```sql
+-- Calculating the Attrition Rate by Marital Status
+SELECT
+	"Marital Status",
+	COUNT(*) total_employees,
+	SUM(CASE WHEN "Attrition" = 'No' THEN 1 ELSE 0 END) num_employees_stayed,
+	SUM(CASE WHEN "Attrition" = 'Yes' THEN 1 ELSE 0 END) num_employees_left,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+GROUP BY "Marital Status"
+ORDER BY attrition_rate DESC;
+
+SELECT
+	DISTINCT "Marital Status",
+	"Gender",
+	COUNT(*) total_employees,
+	SUM(CASE WHEN "Attrition" = 'No' THEN 1 ELSE 0 END) num_employees_stayed,
+	SUM(CASE WHEN "Attrition" = 'Yes' THEN 1 ELSE 0 END) num_employees_left,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+GROUP BY "Marital Status", "Gender"
+
+```
+```sql
+
+-- Calculating the Attrition Rate by Job Satisfaction 
+SELECT
+	"Job Satisfaction Label",
+	COUNT(*) total_employees,
+	SUM(CASE WHEN "Attrition" = 'No' THEN 1 ELSE 0 END) num_employees_stayed,
+	SUM(CASE WHEN "Attrition" = 'Yes' THEN 1 ELSE 0 END) num_employees_left,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+GROUP BY "Job Satisfaction Label"
+ORDER BY attrition_rate DESC;
+	-- Employees with medium job satisfactions are showing high risks of leaving the company at 28.87%
+
+-- Calculating the attrition rate by Work Life Balance
+SELECT
+	"Work-Life Balance Label",
+	COUNT(*) total_employees,
+	SUM(CASE WHEN "Attrition" = 'No' THEN 1 ELSE 0 END) num_employees_stayed,
+	SUM(CASE WHEN "Attrition" = 'Yes' THEN 1 ELSE 0 END) num_employees_left,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+GROUP BY "Work-Life Balance Label"
+ORDER BY attrition_rate DESC;
+	-- Employees with Good work life Balance have high chance of leaving the company at a rate of 28.88%
+
+-- Calculating the attrition rate by Performance Rating 
+SELECT
+	"Performance Rating Label",
+	COUNT(*) total_employees,
+	SUM(CASE WHEN "Attrition" = 'No' THEN 1 ELSE 0 END) num_employees_stayed,
+	SUM(CASE WHEN "Attrition" = 'Yes' THEN 1 ELSE 0 END) num_employees_left,
+	ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER(),2) attrition_rate 
+FROM employee_attrition_dataset
+GROUP BY "Performance Rating Label"
+ORDER BY attrition_rate DESC;
+```
+---
 
 ![Dashboard 1](visuals/attrition_overview_dashboard.png)
 ![Dashboard 2](visuals/attrition_dashboard.png)
