@@ -7,7 +7,7 @@ This project presents an end-to-end analysis of employee attrition using Excel, 
 
 Key metrics like attrition rate and category-based risk patterns were analyzed through segmentation and visualization techniques. The project identifies high-risk employee groups and highlights the main drivers of attrition, providing actionable insights to support data-driven retention strategies.
 
-The interactive Power BI dashboard enables us to:
+The interactive Power BI dashboard enables us to perform:
   -  Analysis of employee attrition drivers, including job satisfaction, leadership, work-life balance, innovation, overtime, company reputation, and employee recognition.
   -  Identification of patterns in attrition rates and key factors influencing employee turnover.
   -  Segmentation of employees to highlight high-risk groups prone to attrition.
