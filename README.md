@@ -267,3 +267,17 @@ This analysis has several limitations that should be acknowledged when interpret
 -	The dataset used in this analysis is synthetically generated and does not reflect real organizational behavior. As a result, certain relationships between variables may be simplified or artificially structured, limiting the extent to which findings can be generalized to real-world workforce environments.
 -	The dataset shows that approximately 6,534 of employees have left the organization, indicating an attrition rate of 10.89%. The remaining 89.11% represent retained employees, suggesting an imbalance in the target variable.
 -	The datatest had alot of nulls and empty values that do not correlate to the real organisation dataset.
+---
+## Conclusions
+
+This project analyzed the key factors influencing employee attrition using a combination of Excel, SQL, Python, and Power BI to explore workforce behavior and identify the main drivers of employee turnover. The analysis revealed that employee attrition is influenced by multiple interrelated factors rather than a single determinant. Job satisfaction and work-life balance emerged as strong predictors of employee retention, with lower satisfaction and poor balance consistently associated with higher attrition rates. Workload pressure, particularly in the form of overtime, was also identified as a significant contributor to employee turnover, indicating that excessive demands increase the likelihood of employees leaving the organization.
+
+In addition, demographic and organizational factors such as age group, marital status, education level, and company size showed noticeable variations in attrition patterns, highlighting that certain employee groups are more vulnerable to turnover than others. Performance rating also presented a mixed effect, where both high-performing and low-performing employees exhibited elevated attrition risk, suggesting that retention challenges exist across different performance levels for different underlying reasons.
+
+Overall, the findings demonstrate that employee retention is a multifaceted issue shaped by workplace environment, job satisfaction, workload distribution, and employee demographics. The project highlights the importance of adopting a holistic retention strategy that addresses both employee well-being and career development needs in order to effectively reduce turnover and improve organizational stability.
+
+---
+## References
+1.	SQL for Data Engineering [Data with Baraa](https://www.youtube.com/watch?v=SSKVgrwhzus)
+2.	Data Analytics with [Chandoo](https://www.youtube.com/results?search_query=chandoo)
+3.	[HackerRank](https://www.hackerrank.com/dashboard)
