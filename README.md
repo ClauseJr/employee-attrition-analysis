@@ -244,3 +244,21 @@ This dashboard analyzes attrition across employee demographics and behavioral fa
 -	Attrition risk is multi-factored and cannot be explained by a single variable alone as the resultant factor
 
 ---
+## Recommendations
+
+### 1. Improve Job Satisfaction Through Continuous Engagement
+Employees with low and medium job satisfaction show higher attrition rates, indicating dissatisfaction as a major driver of turnover. Organizations should implement regular employee feedback systems, recognition programs, and engagement surveys to identify concerns early and improve overall employee satisfaction.
+
+### 2. Strengthen Work-Life Balance Policies 
+Poor work-life balance is strongly associated with higher employee attrition. Companies should redesign workloads, reduce excessive pressure, and introduce flexible working arrangements where possible to ensure employees maintain a healthy balance between work and personal life.
+   
+### 3. Monitor and Reduce Excessive Overtime
+Employees who work overtime show a significantly higher likelihood of leaving the organization. Management should closely monitor overtime patterns, redistribute workloads more effectively, and increase staffing levels in high-demand departments to reduce burnout and turnover risk.
+
+### 4. Develop Targeted Retention Strategies for High-Risk Groups
+Certain groups such as employees aged 25–45, divorced employees, and mid-level educated staff show higher attrition tendencies. Organizations should design targeted retention programs including mentorship, career development opportunities, and internal mobility pathways to improve retention in these segments.
+
+### 5. Strengthen Career Development and Performance Management Systems
+Both high-performing and low-performing employees show elevated attrition risk for different reasons. Organizations should implement structured career progression frameworks, continuous skill development programs, and tailored retention incentives to retain top talent and re-engage underperforming employees.
+
+---
