@@ -170,7 +170,7 @@ This dashboard provides a high-level summary of employee attrition. It highlight
 
 Analytical Insights:
   -  Higher attrition rates of 30% were recorded for employees who had a low Job satisfaction compared to employees with high Job satisfaction.
-  -  It was recorded that employees between the age of 25 to 45 had a higher attrition rates compared to the other ages
+  -  It was recorded that employees between the age of 25 and 45 had a higher attrition rates compared to the other ages
   -  Higher turnovers were recorded for male employees compared to female employees.
   -  Employees with high and low performance ratings in the company recorded higher attrition rates compared to employees with average performance ratings though their attrition value was high.
   -  There is a higher attrition rate among employees who work overtime (20%) compared to employees who do not engage in overtime work
