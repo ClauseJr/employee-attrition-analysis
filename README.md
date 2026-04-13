@@ -180,7 +180,18 @@ Analytical Insights:
 
 ![Dashboard 1](visuals/attrition_overview_dashboard.png)
 
-###  2. Attrition Dashboard
+###  2. Attrition Analysis Dashboard
+This dashboard focuses on identifying key drivers of attrition. It explores attrition rates across job satisfaction, work-life balance, employee recognition, and company reputation, enabling identification of high-risk employee segments.
+
+Key Insights:
+  -  Divorced employees recorded a high attrition rates compared to single and married employees, the following is the summarry of attrition rates by marital status:
+     -	Divorced employees 11.14% with a total attrition of 2,119 employees
+     -	Married employees 10.71% with a total attrition of 2,364 employees
+     -	Single employees 10.84% with a total attrition of 2,051 employees
+  -  Employees with poor work-life balance encountered the highest attrition rates at 30.37% compared to employees with fair and excellent work-life balance.
+  -  Employees with Masters Degree(10.88%) and Bachelors Degree(11.18%) recorded a higher attrition rate compared to employees with PhD and high school certificates.
+  -  Employees working in small companies recorded a higher attrition rate at 11.14% compared to employees working at large companies with many employees.
+
 ![Dashboard 2](visuals/attrition_dashboard.png)
 
 ###  3. Analysis Dashboard
