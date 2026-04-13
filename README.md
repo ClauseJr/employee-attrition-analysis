@@ -262,3 +262,8 @@ Certain groups such as employees aged 25–45, divorced employees, and mid-level
 Both high-performing and low-performing employees show elevated attrition risk for different reasons. Organizations should implement structured career progression frameworks, continuous skill development programs, and tailored retention incentives to retain top talent and re-engage underperforming employees.
 
 ---
+##	Limitations
+This analysis has several limitations that should be acknowledged when interpreting the results:
+-	The dataset used in this analysis is synthetically generated and does not reflect real organizational behavior. As a result, certain relationships between variables may be simplified or artificially structured, limiting the extent to which findings can be generalized to real-world workforce environments.
+-	The dataset shows that approximately 6,534 of employees have left the organization, indicating an attrition rate of 10.89%. The remaining 89.11% represent retained employees, suggesting an imbalance in the target variable.
+-	The datatest had alot of nulls and empty values that do not correlate to the real organisation dataset.
