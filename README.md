@@ -156,9 +156,34 @@ GROUP BY "Performance Rating Label"
 ORDER BY attrition_rate DESC;
 ```
 ---
+## Project Dashboards
+The project includes interactive Power BI dashboards designed to analyze employee attrition from multiple perspectives, including workforce overview, attrition drivers, and demographic insights.
+
+Key KPIs:
+  -  Total Employees
+  -  Total Attrition
+  -  Attrition Rate
+  -  Average Tenure
+
+###  1. Overview Dashboard
+This dashboard provides a high-level summary of employee attrition. It highlights key distributions across leadership, performance, job satisfaction, and work-life balance..
+
+Analytical Insights:
+  -  Higher attrition rates of 30% were recorded for employees who had a low Job satisfaction compared to employees with high Job satisfaction.
+  -  It was recorded that employees between the age of 25 to 45 had a higher attrition rates compared to the other ages
+  -  Higher turnovers were recorded for male employees compared to female employees.
+  -  Employees with high and low performance ratings in the company recorded higher attrition rates compared to employees with average performance ratings though their attrition value was high.
+  -  There is a higher attrition rate among employees who work overtime (20%) compared to employees who do not engage in overtime work
+  -  The overall number of employee in the company was 60,000 and out of that, only 6,534 employees left as a result of such factors like job satisfaction, working overtime, recognition, and reputations among other factors.
+    
+ This dashboard functions as an executive summary, offering quick insight for total employees, employee attrition and attrition rates.
 
 ![Dashboard 1](visuals/attrition_overview_dashboard.png)
+
+###  2. Attrition Dashboard
 ![Dashboard 2](visuals/attrition_dashboard.png)
+
+###  3. Analysis Dashboard
 ![Dashboard 3](visuals/analysis_dashboard.png)
 
 
