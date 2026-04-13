@@ -194,7 +194,10 @@ Key Insights:
 
 ![Dashboard 2](visuals/attrition_dashboard.png)
 
-###  3. Analysis Dashboard
+###  3. Employee Insights Dashboard
+This dashboard analyzes attrition across employee demographics and behavioral factors such as Leadership opportunities, gender, company recognition, job satisfaction, work-life balance, attrition, and performance ratings. It also includes trend-like analysis of total attrition across education and job roles.
+
+
 ![Dashboard 3](visuals/analysis_dashboard.png)
 
 
