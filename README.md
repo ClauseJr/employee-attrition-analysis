@@ -200,4 +200,47 @@ This dashboard analyzes attrition across employee demographics and behavioral fa
 
 ![Dashboard 3](visuals/analysis_dashboard.png)
 
+---
+## Key Areas of Analysis
 
+### 1.	Employee Attrition Overview Analysis
+-	Overall employee attrition rate and workforce stability assessment
+-	Comparison between employees who stayed vs those who left
+-	Identification of baseline turnover levels across the company
+
+
+### 2.	Job Satisfaction and Attrition Analysis
+-	Employees with low job satisfaction recorded the highest attrition rates compared to those with high satisfaction
+-	Medium satisfaction employees also showed notable turnover risk, indicating dissatisfaction is not always extreme to trigger attrition
+-	Job satisfaction is a strong predictor of employee retention and exit behavior
+
+
+### 3.	Work-Life Balance Impact on Attrition
+-	Employees with poor work-life balance recorded the highest attrition rates compared to those with fair and excellent balance
+-	Even employees with “good” work-life balance showed noticeable turnover risk, indicating perceived imbalance can vary by individual expectations
+-	Work-life balance is a critical retention driver across multiple employee segments
+
+  
+### 4.	Overtime and Workload Pressure Analysis
+-	Employees who worked overtime showed a higher likelihood of leaving the organization (20%) compared to those who did not work overtime
+-	Overtime exposure is strongly associated with increased workload pressure and turnover risk
+-	Employees without overtime work demonstrated comparatively lower attrition rates
+
+
+### 5.	Demographic-Based Attrition Analysis
+-	Attrition varied across age groups, with employees between 25–45 years showing higher turnover rates
+-	Male employees recorded slightly higher attrition compared to female employees
+-	Marital status influenced attrition, with divorced employees showing relatively higher turnover risk compared to married and single employees
+
+  
+###	6.	Performance Rating and Attrition Patterns
+-	Employees with both high and low performance ratings showed higher attrition compared to average performers
+-	This suggests a dual risk pattern: high performers may leave due to opportunities, while low performers may exit due to disengagement
+-	Performance alone is not a direct retention guarantee
+
+###	7.	High-Risk Employee Segmentation
+-	Employees with a combination of low job satisfaction, poor work-life balance, and overtime exposure showed the highest attrition risk
+-	Certain demographic and behavioral clusters consistently appear in high-risk turnover groups
+-	Attrition risk is multi-factored and cannot be explained by a single variable alone as the resultant factor
+
+---
